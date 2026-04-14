@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="16dp">
+
+<!-- Title -->
+<TextView
+    android:id="@+id/textAddEventTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Add Event"
+    android:textSize="22sp"
+    android:textStyle="bold"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"/>
+
+<!-- Event Name Input -->
+<EditText
+    android:id="@+id/editEventName"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:hint="Event Name"
+    app:layout_constraintTop_toBottomOf="@id/textAddEventTitle"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="24dp"/>
+
+<!-- Event Date Input -->
+<EditText
+    android:id="@+id/editEventDate"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:hint="Event Date (YYYY-MM-DD)"
+    app:layout_constraintTop_toBottomOf="@id/editEventName"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp"/>
+
+<!-- Add Event Button -->
+<Button
+    android:id="@+id/buttonAddEvent"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="Add Event"
+    app:layout_constraintTop_toBottomOf="@id/editEventDate"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp"/>
+
+<!-- Update Event Button -->
+<Button
+    android:id="@+id/buttonUpdateEvent"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="Update Event"
+    app:layout_constraintTop_toBottomOf="@id/buttonAddEvent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="8dp"/>
+
+<!-- Delete Event Button -->
+<Button
+    android:id="@+id/buttonDeleteEvent"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="Delete Event"
+    app:layout_constraintTop_toBottomOf="@id/buttonUpdateEvent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="8dp"/>
+
+<!-- GridView to display events -->
+<GridView
+    android:id="@+id/gridEvents"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:numColumns="2"
+    android:verticalSpacing="12dp"
+    android:horizontalSpacing="12dp"
+    android:gravity="center"
+    app:layout_constraintTop_toBottomOf="@id/buttonDeleteEvent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
