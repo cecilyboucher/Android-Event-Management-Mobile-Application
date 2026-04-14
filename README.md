@@ -52,15 +52,10 @@ EventFlow helps users organize tasks, deadlines, and personal goals in one centr
 ---
 
 ## 📸 Screenshots
-<img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/5a1ae9ed-70e7-417a-95f6-9e9519dd31f7" />
-<img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/af344c4c-605b-47a4-b933-5ef32f4b9f1c" />
-<img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/02cdb2c6-7a42-42c0-a43f-dcfb39f46390" />
-<img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/e397f27c-c526-4982-8e57-4a0af0cf9ca7" />
-
-
-
-
-
+<img width="1366" height="720" alt="image" src="https://github.com/cecilyboucher/EventFlow-Mobile-App/blob/main/activity_login.png" />
+<img width="1366" height="720" alt="image" src="https://github.com/cecilyboucher/EventFlow-Mobile-App/blob/main/activity_events.png" />
+<img width="1366" height="720" alt="image" src="https://github.com/cecilyboucher/EventFlow-Mobile-App/blob/main/activity_add.png" />
+<img width="1366" height="720" alt="image" src="https://github.com/cecilyboucher/EventFlow-Mobile-App/blob/main/activity_sms.png" />
 
 ---
 
