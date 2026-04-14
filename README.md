@@ -1,18 +1,18 @@
 # EventFlow – Android Event Management App
 
 ## 📱 Overview
-EventFlow is an Android mobile application designed to help users manage events, deadlines, and personal goals. The app provides secure user authentication, event tracking, and optional SMS reminders to improve organization and time management.
+EventFlow is a mobile Android application designed to help users manage events, deadlines, and personal goals. The app provides secure authentication, event tracking, and reminder functionality to improve organization and time management.
 
-This project was developed as part of a software engineering course with a focus on mobile application development, user experience design, and data management.
+This project was developed as part of a software engineering course with a focus on mobile application development, user experience, and data management.
 
 ---
 
 ## ✨ Features
-- User account creation and authentication
+- User authentication (login/logout system)
 - Create, edit, and delete events (CRUD functionality)
 - Event scheduling and deadline tracking
-- Optional SMS reminder notifications
-- Responsive UI designed for multiple Android screen sizes
+- Reminder/notification support
+- Clean and responsive Android UI design
 - Local data persistence
 
 ---
@@ -21,33 +21,38 @@ This project was developed as part of a software engineering course with a focus
 - Java
 - Android Studio
 - Android SDK
-- SQLite (or local storage if applicable)
-- XML for UI design
+- XML (UI Design)
+- Git & GitHub
 
 ---
 
 ## 🧠 Key Concepts Demonstrated
-- Mobile application architecture
 - Object-Oriented Programming (OOP)
+- Mobile application architecture
 - CRUD operations
-- User authentication flows
-- UI/UX design principles
 - Event-driven programming
-- Debugging and testing across devices
+- UI/UX design principles
+- Data persistence
+- Software testing and debugging
 
 ---
 
 ## 🎯 Problem It Solves
-Many users struggle to keep track of deadlines and personal events. EventFlow provides a simple, centralized system for managing time-sensitive tasks with optional reminders.
+EventFlow helps users organize tasks, deadlines, and personal goals in one centralized mobile application with reminders and structured event tracking.
 
 ---
 
 ## 🚧 Future Improvements
-- Cloud sync for events
+- Cloud synchronization
 - Calendar integration
 - Push notifications
-- Improved UI design
 - Dark mode support
+- Improved UI/UX design
+
+---
+
+## 📸 Screenshots
+(Add screenshots here)
 
 ---
 
