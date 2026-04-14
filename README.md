@@ -1,4 +1,56 @@
-The Event Tracker App was developed to give users a simple, reliable way to stay organized and “on top of life’s most important moments,” helping them manage appointments, birthdays, deadlines, and personal goals efficiently. To support these goals, the app included quick account setup, secure login, intuitive event creation and editing, and optional SMS reminders to help users stay prepared without stress. Several screens were essential to meeting these needs: a clean login and setup screen, an event list, an add/edit event interface, a settings area for enabling SMS reminders, and built‑in help options. The UI was designed with users in mind from the start, using a modern calendar‑ or clock‑themed icon and bright, polished colors that created a professional, trustworthy first impression. Consistency across devices was also a priority, and the app was tested on a wide range of Android versions and screen sizes to ensure a smooth, visually appealing experience. These choices were successful because they emphasized clarity, minimal friction, and user trust—reinforced by the app’s commitment to privacy, which requests only one permission and “never” accesses the camera, microphone, or location.
-In coding the app, I used a structured, incremental approach: building core functionality first, then refining the UI and ensuring compatibility across Android versions. This strategy made the development process manageable and reduced debugging complexity, and it’s a technique I can apply to future projects to maintain clarity and stability as features grow. Testing played a crucial role as well; before release, the app underwent final checks “across multiple Android versions and devices,” which revealed layout inconsistencies, performance issues, and any problems with event management or SMS reminders. This process was essential because it ensured the app behaved consistently in real‑world conditions and delivered a polished, reliable user experience.
-Throughout development, I had to innovate particularly in balancing functionality with privacy—offering optional SMS reminders while limiting the app to a single permission request. I also had to ensure the UI remained consistent across many screen sizes, which required thoughtful design and repeated testing. One area where I was especially successful was in creating a user‑centered, privacy‑focused experience. By combining intuitive event management with minimal permissions and a polished, trustworthy interface, I demonstrated strong skills in aligning technical development with real user needs and professional design standards.
+# EventFlow – Android Event Management App
 
+## 📱 Overview
+EventFlow is an Android mobile application designed to help users manage events, deadlines, and personal goals. The app provides secure user authentication, event tracking, and optional SMS reminders to improve organization and time management.
+
+This project was developed as part of a software engineering course with a focus on mobile application development, user experience design, and data management.
+
+---
+
+## ✨ Features
+- User account creation and authentication
+- Create, edit, and delete events (CRUD functionality)
+- Event scheduling and deadline tracking
+- Optional SMS reminder notifications
+- Responsive UI designed for multiple Android screen sizes
+- Local data persistence
+
+---
+
+## 🛠️ Technologies Used
+- Java
+- Android Studio
+- Android SDK
+- SQLite (or local storage if applicable)
+- XML for UI design
+
+---
+
+## 🧠 Key Concepts Demonstrated
+- Mobile application architecture
+- Object-Oriented Programming (OOP)
+- CRUD operations
+- User authentication flows
+- UI/UX design principles
+- Event-driven programming
+- Debugging and testing across devices
+
+---
+
+## 🎯 Problem It Solves
+Many users struggle to keep track of deadlines and personal events. EventFlow provides a simple, centralized system for managing time-sensitive tasks with optional reminders.
+
+---
+
+## 🚧 Future Improvements
+- Cloud sync for events
+- Calendar integration
+- Push notifications
+- Improved UI design
+- Dark mode support
+
+---
+
+## 👩‍💻 Author
+Cecily Boucher  
+GitHub: https://github.com/cwarnica
