@@ -53,4 +53,4 @@ Many users struggle to keep track of deadlines and personal events. EventFlow pr
 
 ## 👩‍💻 Author
 Cecily Boucher  
-GitHub: https://github.com/cwarnica
+GitHub: https://github.com/cecilyboucher
